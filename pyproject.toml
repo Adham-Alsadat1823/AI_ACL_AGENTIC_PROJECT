@@ -1,5 +1,5 @@
 [project]
-name = "ai-acl-agentic-project"
+name = "AI_ACL_AGENTIC_PROJECT"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,8 +15,11 @@ dependencies = [
 ]
 
 [project.scripts]
-ai-acl-agentic-project = "ai_acl_agentic_project:main"
+AI_ACL_AGENTIC_PROJECT = "AI_ACL_AGENTIC_PROJECT:main"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv]
+package = false
